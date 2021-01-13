@@ -41,7 +41,7 @@ services:
     dns: 8.8.8.8
     
   letsencrypt:
-    image: linuxserver/letsencrypt:1.3.0-ls104
+    image: linuxserver/swag:version-1.11.0
     container_name: letsencrypt
     cap_add:
       - NET_ADMIN
